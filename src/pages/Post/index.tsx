@@ -1,9 +1,10 @@
+import { PostHeader } from "../Home/components/Post/components/PostHeader"
 import { PostContainer } from "./styles"
 
 export function Post(){
     return(
         <PostContainer>
-            <h1>Oi</h1>
+            <PostHeader/>
         </PostContainer>
     )
 }
